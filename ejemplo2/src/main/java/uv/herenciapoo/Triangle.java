@@ -32,6 +32,6 @@ public class Triangle extends Figure {
 
     @Override
     public double getPerimeter() {
-        return width * 3;
+        return width * getNumberOfSides();
     }
 }
